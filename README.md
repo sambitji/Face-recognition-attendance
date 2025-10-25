@@ -1,14 +1,14 @@
 # Face-recognition-attendance
 Student's attendance will be marked by capturing their photos
 
-Overview
+A.) Overview
 
 This project automates attendance management using artificial intelligence and computer vision. It eliminates manual roll calls, prevents proxy attendance, and ensures accurate record-keeping. The system identifies students through face recognition, marks attendance automatically, and stores the data in both local (MySQL) and cloud (Firebase) databases for reliability and remote access.
 
 
 
 
-Why It’s Necessary
+B.) Why It’s Necessary
 
 Traditional attendance systems are time-consuming, error-prone, and vulnerable to proxy marking. Institutions require automation that ensures:
 
@@ -25,7 +25,7 @@ Cloud Access: Centralized records accessible anytime, anywhere.
 
 
 
-System Workflow
+C.) System Workflow
 
 1. Face Enrollment
 
@@ -65,7 +65,7 @@ Firebase: Provides remote synchronization and secure backup.
 
 
 
-Technologies Used
+D.) Technologies Used
 
 Python – Core programming language
 
@@ -84,7 +84,7 @@ datetime – Timestamp management
 
 
 
-Output
+E.) Output
 
 Console-based confirmation of attendance marking (e.g., Marked present: Sambit Sharma (GGSIPU101))
 
@@ -96,7 +96,7 @@ Firebase Firestore collection storing synchronized data with timestamps
 
 
 
-Benefits
+F.) Benefits
 
 Eliminates manual effort and paper-based tracking.
 
@@ -110,7 +110,7 @@ Supports analytics — attendance trends, frequency, and student participation c
 
 
 
-Future Enhancements
+G.) Future Enhancements
 
 Integration with live CCTV or IP cameras for real-time tracking.
 
